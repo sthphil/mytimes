@@ -40,17 +40,17 @@ nav a {
 .content {
   display: flex;
   justify-content: center;
-  border: 1px solid black;
+  margin-top: 30px;
 }
 .column {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   margin-right: 32px;
 }
 
 .column.large {
   width: 630px;
+  display: flex;
 }
 
 .column.medium {
@@ -60,14 +60,28 @@ nav a {
 .column.small {
   width: 240px;
 }
-div {
-  border: 1px solid black;
-}
+
 
 .narrative {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  text-align: left;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+
+}
+.stories .text-content {
+  height: 250px;
+}
+.story {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
 }
 
 /* Image Section */
@@ -89,34 +103,40 @@ div {
   background-image: url("images/img-story-2.png");
   height: 300px;
   justify-content: center;
+  margin-top: 15px;
 }
 .earth-photo-content span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 .hipster-photo-content {
   display: flex;
   justify-content: center;
   height: 300px;
   background-image: url("images/img-story-3.png");
+  margin-top: 15px;
 }
 .hipster-photo-content span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 .cats-photo-content {
   display: flex;
   justify-content: center;
   background-image: url("images/img-story-1.png");
   height: 300px;
+  margin-top: 15px;
 }
 .cats-photo-content span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
