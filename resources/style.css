@@ -1,0 +1,121 @@
+/* Head of Page/Nav Bar */
+header {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  align-items: center;
+
+}
+nav {
+  padding-right: 40px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+nav a {
+  color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+/*Content Area / Column Content */
+.content {
+  display: flex;
+  border: 1px solid black;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+div {
+  border: 1px solid black;
+}
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+/* Image Section */
+
+.image-content {
+  display: flex;
+  height: 300px;
+  background-image: url("images/img-story-main.png");
+}
+
+.image-content span {
+  font-family: georgia;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.earth-photo-content {
+  display: flex;
+  background-image: url("images/img-story-2.png");
+  height: 300px;
+  justify-content: center;
+}
+.earth-photo-content span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.hipster-photo-content {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-image: url("images/img-story-3.png");
+}
+.hipster-photo-content span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.cats-photo-content {
+  display: flex;
+  justify-content: center;
+  background-image: url("images/img-story-1.png");
+  height: 300px;
+}
+.cats-photo-content span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
